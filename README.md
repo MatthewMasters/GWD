@@ -5,41 +5,36 @@ Deep learning system for wheat head detection. Below you can find a complete out
 
 ### Archive Contents
 
-**data/train_corr** - dataset used in training (restored full images and corrected labels)
-
-**data/models** - model weights with best LB submission
-
-**pipeline/preparation** - code used in the preparation of the data
-
-**pipeline/training** - code to reproduce the models from scratch
-
-**pipeline/inference** - code to run prediction on test set (including test-time augmentation, pseudolabeling, and ensembling)
-
-**pipeline/wheatdet** - code required by multiple components of the pipeline such as network architectures and dataloaders
+- **data/train_corr** - dataset used in training (restored full images and corrected labels)
+- **data/models** - model weights with best LB submission
+- **pipeline/preparation** - code used in the preparation of the data
+- **pipeline/training** - code to reproduce the models from scratch
+- **pipeline/inference** - code to run prediction on test set (including test-time augmentation, pseudolabeling, and ensembling)
+- **pipeline/wheatdet** - code required by multiple components of the pipeline such as network architectures and dataloaders
 
 
 
 ### Hardware
 
-512 GB SSD
+- 512 GB SSD
+- 16 GB RAM
 
-16 GB RAM
+- Intel Core i5-3570K
 
-Intel Core i5-3570K
-
-1x NVIDIA GeForce RTX 2070 GPU
+- 1x NVIDIA GeForce RTX 2070 GPU
 
 
 
 ### Software
 
-Ubuntu 18.04.1 LTS
+- Ubuntu 18.04.1 LTS
 
-Python 3.6.7
+- Python 3.6.7
 
-CUDA 10.2
+- CUDA 10.2
 
-NVIDIA Driver 430.14
+- NVIDIA Driver 430.14
+
 
 
 
